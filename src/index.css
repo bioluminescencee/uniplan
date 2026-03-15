@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap");
+* {
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 10px;
+}
+button {
+    font-family: "DM Sans", sans-serif;
+}
+select,
+input {
+    font-family: "DM Sans", sans-serif;
+}
+.slot-hover:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+.act-block:hover {
+    filter: brightness(1.1);
+}
